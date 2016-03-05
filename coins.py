@@ -18,4 +18,11 @@ while amount >= 0.01:
   amount = amount - .01
   pen += 1
 
-if quarters > 0: print str(quarters)+ " quarters" if dimes > 0: print str(dimes)+ " dimes" if nickels > 0: print str(nickels)+ " nickels" if pen > 0: print str(pen) + " pennies"
+if quarters > 0: 
+  print str(quarters)+ " quarters" 
+if dimes > 0: 
+  print str(dimes)+ " dimes" 
+if nickels > 0: 
+  print str(nickels)+ " nickels" 
+if pen > 0:
+  print str(pen) + " pennies"
